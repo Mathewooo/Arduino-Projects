@@ -4,7 +4,7 @@ typealias IntegerLiteralType = UInt8
 
 let analogPin: Pin = A0
 let ledPin: Pin = D11
-let readsPerSecond: Milliseconds = 25
+let readsPerSecond: Milliseconds = 30
 var currentAnalogValue: UInt8 = 0
 
 pinMode(pin: ledPin, mode: OUTPUT)

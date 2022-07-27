@@ -4,7 +4,7 @@ typealias IntegerLiteralType = UInt8
 
 let ledPin: Pin = D11
 
-let fadesPerSecond: Milliseconds = 80
+let fadesPerSecond: Milliseconds = 60
 let fadeOnStep: Int16 = 7
 let fadeOffStep: Int16 = 5
 let minBrightness: Int16 = 0
